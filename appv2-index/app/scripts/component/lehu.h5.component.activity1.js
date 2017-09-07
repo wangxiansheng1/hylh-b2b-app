@@ -13,9 +13,7 @@ define('lehu.h5.component.activity1', [
         'text!template_components_activity1'
     ],
 
-    function ($, can, LHConfig, util, LHAPI, LHHybrid, md5,
-              imagelazyload, busizutil,
-              template_components_activity1) {
+    function ($, can, LHConfig, util, LHAPI, LHHybrid, md5, imagelazyload, busizutil, template_components_activity1) {
         'use strict';
 
         return can.Control.extend({

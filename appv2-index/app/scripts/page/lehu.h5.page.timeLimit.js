@@ -32,7 +32,7 @@ define('lehu.h5.page.timeLimit', [
                     // new LHDownload(null, {
                     //     "position": "bottom"
                     // });
-                    new LHDownload();
+                    //new LHDownload();
                 }
 
                 new LHFooter();

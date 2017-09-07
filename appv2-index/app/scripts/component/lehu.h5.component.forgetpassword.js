@@ -13,9 +13,7 @@ define('lehu.h5.component.forgetpassword', [
         'text!template_components_forgetpassword'
     ],
 
-    function ($, can, LHConfig, util, LHAPI, LHHybrid, md5,
-              imagelazyload, busizutil,
-              template_components_forgetpassword) {
+    function ($, can, LHConfig, util, LHAPI, LHHybrid, md5, imagelazyload, busizutil, template_components_forgetpassword) {
         'use strict';
 
         return can.Control.extend({

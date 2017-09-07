@@ -34,7 +34,7 @@ define('lehu.h5.page.activityreduce', [
                     // new LHDownload(null,{
                     //     "position":"bottom"
                     // });
-                    new LHDownload();
+                    //new LHDownload();
                 }
                 new LHFooter();
                 var activityreduce = new LHActivityreduce("#content");

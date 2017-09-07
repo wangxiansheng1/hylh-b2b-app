@@ -40,11 +40,11 @@ define('lehu.h5.page.servers', [
                 new LHFooter();
 
                 var param = can.deparam(window.location.search.substr(1));
-                if (!param.hyfrom) {
+                /*if (!param.hyfrom) {
                     new LHDownload(null, {
                         "position": "bottom"
                     });
-                }
+                }*/
             }
         });
 

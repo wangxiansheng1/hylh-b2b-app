@@ -33,7 +33,7 @@ define('lehu.h5.page.activitydonate', [
                     // new LHDownload(null,{
                     //     "position":"bottom"
                     // });
-                    new LHDownload();
+                    //new LHDownload();
                 }
                 new LHFooter();
 

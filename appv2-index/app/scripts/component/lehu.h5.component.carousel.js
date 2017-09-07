@@ -275,9 +275,9 @@ define('lehu.h5.component.carousel', [
 
                         if(param.hyfrom == 'app'){
                             //    分享
-                            if (util.isMobile.Android() || util.isMobile.iOS()) {
+                            /*if (util.isMobile.Android() || util.isMobile.iOS()) {
                                 that.share();
-                            }
+                            }*/
 
                         }
 
@@ -494,10 +494,10 @@ define('lehu.h5.component.carousel', [
             },
 
             //分享
-            share: function () {
+           /* share: function () {
                 var that = this;
                 var jsonParams = {
-                    'funName': 'shareHandler',
+                    'funName': '',
                     'params': {
                         "shouldShare": 1,
                         "shareTitle": '汇银乐虎全球购-幸运大转盘',
@@ -508,7 +508,7 @@ define('lehu.h5.component.carousel', [
                     },
                 };
                 LHHybrid.nativeFun(jsonParams);
-            },
+            },*/
 
             //IOS userid和token 本地存储
             localStronge: function () {

@@ -149,7 +149,7 @@ define('lehu.h5.page.activityreducelist', [
         // if (!param.hyfrom) {
         //     new LHDownload();
         // }
-      //  new LHFooter();
+        new LHFooter();
         new RegisterHelp('#content');
 
     });

@@ -37,7 +37,7 @@ define('lehu.h5.page.carousel', [
                     // new LHDownload(null, {
                     //     "position": "bottom"
                     // });
-                    new LHDownload();
+                   // new LHDownload();
                 }
 
                 var wheel = new LHCarousel("#content");
