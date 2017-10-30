@@ -23,14 +23,8 @@
                     {{{lehu-rulers goodsSpecName}}}
                 </a>
                 {{^lehu-showDis promotionPrice goodsItemPrice}}
-                    <!--<em>乐虎价：<i>¥ {{goodsItemPrice}}</i></em>-->
-                    {{^lehu-show goodsVipPrice goodsItemPrice }}
-                        <em>乐虎价：<i>¥ {{goodsItemPrice}}</i></em>
-                    {{/lehu-show}}
-                    {{#lehu-show goodsVipPrice goodsItemPrice}}
-                        <em>乐虎价：<i>¥ {{goodsItemPrice}}</i><b>￥{{goodsVipPrice}}</b></em>
-                    {{/lehu-show}}
-                {{/lehu-showDis}}
+                   	<em>乐虎价：<i>¥ {{goodsItemPrice}}</i></em> 
+                 {{/lehu-showDis}}
                 {{#lehu-showDis promotionPrice goodsItemPrice}}
                     <em>活动价：<i>¥ {{promotionPrice}}</i>
                         <del>￥{{goodsItemPrice}}</del>

@@ -142,7 +142,7 @@
     overflow: hidden;
 }
 
-.list-content .list-content-scroll .scroll-goods-items ul li a em b {
+/*.list-content .list-content-scroll .scroll-goods-items ul li a em b {
     padding-right: .73rem;
     max-width: 100%;
     height: .3rem;
@@ -159,7 +159,7 @@
     background: url(../images/huiyuan.png) no-repeat;
     background-size: .7rem auto;
     background-position:100% 50%;
-}
+}*/
 
 .list-content .list-content-square {
     width: 100%;

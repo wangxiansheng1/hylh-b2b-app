@@ -35,10 +35,7 @@ define('lehu.h5.page.activity818', [
 				this.element.html(html);
 
 				//img图片懒加载
-				$.imgLazyLoad({
-					threshold: 100,
-					effect: "fadeIn"
-				});
+				$.imgLazyLoad();
 
 				//去除导航
 				this.deleteNav();

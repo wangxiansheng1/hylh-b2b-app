@@ -210,7 +210,7 @@ define('lehu.h5.component.register', [
 				};
 
 				var api = new LHAPI({
-					url: that.URL + '/mobile-web-user/ws/mobile/v1/user/register?sign=' + that.encription(this.param),
+					url: that.URL + '/mobile-web-user/ws/mobile/v1/recommend/login?sign=' + that.encription(this.param),
 					data: JSON.stringify(this.param),
 					method: 'post'
 				});

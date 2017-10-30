@@ -162,9 +162,9 @@ define('lehu.h5.component.list', [
 						html += '<i>¥' + RelateGoodsList[i].price + '</i><del>¥' + RelateGoodsList[i].originalPrice + '</del>';
 					}
 					//会员价
-					else if((RelateGoodsList[i].goodsVipPrice != 0 || RelateGoodsList[i].goodsVipPrice != "") && (RelateGoodsList[i].price == "" || RelateGoodsList[i].price == 0)) {
+					/*else if((RelateGoodsList[i].goodsVipPrice != 0 || RelateGoodsList[i].goodsVipPrice != "") && (RelateGoodsList[i].price == "" || RelateGoodsList[i].price == 0)) {
 						html += '<i>￥' + RelateGoodsList[i].originalPrice + '</i><b>￥' + RelateGoodsList[i].goodsVipPrice + '</b>';
-					} else {
+					}*/ else {
 						html += '<i>¥' + RelateGoodsList[i].originalPrice + '</i>';
 					}
 
@@ -217,9 +217,9 @@ define('lehu.h5.component.list', [
 						html += '<i>¥' + SquareList[i].price + '</i><del>¥' + SquareList[i].originalPrice + '</del>';
 					}
 					//会员价
-					else if((SquareList[i].goodsVipPrice != 0 || SquareList[i].goodsVipPrice != "") && (SquareList[i].price == "" || SquareList[i].price == 0)) {
+					/*else if((SquareList[i].goodsVipPrice != 0 || SquareList[i].goodsVipPrice != "") && (SquareList[i].price == "" || SquareList[i].price == 0)) {
 						html += '<i>￥' + SquareList[i].originalPrice + '</i><b>￥' + SquareList[i].goodsVipPrice + '</b>';
-					} else {
+					} */else {
 						html += '<i>¥' + SquareList[i].originalPrice + '</i>';
 					}
 
